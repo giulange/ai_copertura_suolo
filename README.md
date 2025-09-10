@@ -5,7 +5,15 @@
 ## 📌 Evento
 **Estate GIS 2025**  
 **Titolo:** Verso l’AI: Reti neurali per la mappatura della copertura del suolo  
-**Relatore:** Giuliano Langella  
+<p>
+  <strong>Relatore:</strong> Giuliano Langella<br>
+  Professore di Pedo-informatica<br>
+  Dipartimento di Agraria, Università degli Studi di Napoli Federico II<br>
+  <a href="https://www.docenti.unina.it/#!/professor/4749554c49414e4f4c414e47454c4c414c4e47474c4e37374d33304c3235394e/attivita_ricerca" target="_blank" rel="noopener noreferrer">
+    Pagina docente UNINA
+  </a>
+</p>
+
 **Data:** 10 settembre 2025  
 **Orario:** 17.30 – 19.30  
 
@@ -68,6 +76,13 @@ Il repository raccoglie i materiali del seminario, con esempi pratici di:
 
 👉 Su **Windows** lo script `run.sh` può essere eseguito dal **WSL2 terminal** (Ubuntu, Debian, ecc.), oppure da **Git Bash**.  
 Se gli studenti non hanno familiarità con la shell, possono eseguire manualmente i comandi contenuti in `run.sh`.
+
+
+4.	**Accedere a Jupyter Notebook**
+
+Completato con successo l'esecuzione di `run.sh`, la finestra del terminale resta bloccata in esecuzione del container Docker. <br>
+Collegarsi a [http://localhost:8888/lab?token=estategis](http://localhost:8888/lab?token=estategis) per accedere all’ambiente Jupyter. All’interno troverai i notebook nella cartella `supclassann/`.
+
 
 ## 📜 Licenza
 
