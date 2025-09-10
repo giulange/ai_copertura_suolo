@@ -1,0 +1,85 @@
+{
+  "seed": 42,
+  "counts_per_class": {
+    "train": {
+      "AnnualCrop": 400,
+      "Forest": 400,
+      "HerbaceousVegetation": 400,
+      "Highway": 400,
+      "Industrial": 400,
+      "Pasture": 400,
+      "PermanentCrop": 400,
+      "Residential": 400,
+      "River": 400,
+      "SeaLake": 400
+    },
+    "val": {
+      "AnnualCrop": 100,
+      "Forest": 100,
+      "HerbaceousVegetation": 100,
+      "Highway": 100,
+      "Industrial": 100,
+      "Pasture": 100,
+      "PermanentCrop": 100,
+      "Residential": 100,
+      "River": 100,
+      "SeaLake": 100
+    },
+    "train_val": {
+      "AnnualCrop": 500,
+      "Forest": 500,
+      "HerbaceousVegetation": 500,
+      "Highway": 500,
+      "Industrial": 500,
+      "Pasture": 500,
+      "PermanentCrop": 500,
+      "Residential": 500,
+      "River": 500,
+      "SeaLake": 500
+    },
+    "test": {
+      "AnnualCrop": 200,
+      "Forest": 200,
+      "HerbaceousVegetation": 200,
+      "Highway": 200,
+      "Industrial": 200,
+      "Pasture": 200,
+      "PermanentCrop": 200,
+      "Residential": 200,
+      "River": 200,
+      "SeaLake": 200
+    }
+  },
+  "totals": {
+    "train": 4000,
+    "val": 1000,
+    "train_val": 5000,
+    "test": 2000
+  },
+  "split_pct": {
+    "train_pct": 57.14,
+    "val_pct": 14.29,
+    "test_pct": 28.57
+  },
+  "batch_size": 64,
+  "learning_rate_effective": 0.0010000000474974513,
+  "epochs_max": 20,
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "img_shape": [
+    64,
+    64,
+    13
+  ],
+  "notes": "EuroSAT MS (13 bande), CNN semplice 3 blocchi: Conv+BN+ReLU+Pool"
+}

@@ -1,0 +1,5 @@
+RUN_DIR: outputs/20250908_102502
+Seed: 3008
+Train: 4000 | Val: 1000 | Test: 2000
+Batch size: 64 | LR: 2.4414063659605745e-07 | Epochs: 100
+Classi: AnnualCrop, Forest, HerbaceousVegetation, Highway, Industrial, Pasture, PermanentCrop, Residential, River, SeaLake
