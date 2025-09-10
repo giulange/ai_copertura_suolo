@@ -33,7 +33,7 @@ Il repository raccoglie i materiali del seminario, con esempi pratici di:
    ```
 ### 2.	Creare l'ambiente di lavoro
 
-#### Opzione A: iunstallare i requisiti Python
+#### Opzione A: installare i requisiti Python
    ```bash
    pip install -r requirements.txt
    ```
@@ -41,7 +41,7 @@ Il repository raccoglie i materiali del seminario, con esempi pratici di:
 #### Opzione B (consigliata): usare un contenitore Docker
 
 1. **Installare Docker Desktop** (include già Docker Engine e Compose):
-   - **Windows**: scaricare da [Docker Desktop per Windows](https://docs.docker.com/desktop/install/windows/).  
+   - **Windows**: scaricare da [Docker Desktop per Windows](https://docs.docker.com/desktop/setup/install/windows-install/).  
      > ⚠️ Richiede **WSL2** attivato (Windows Subsystem for Linux). Durante l’installazione Docker Desktop ti guiderà a configurarlo.  
    - **macOS**: scaricare da [Docker Desktop per Mac](https://docs.docker.com/desktop/install/mac/).  
    - **Linux (Ubuntu/Debian)**: installare direttamente da pacchetto o repository ufficiale:  

@@ -5,16 +5,17 @@ Questa cartella contiene i **materiali didattici** del seminario *Verso l’AI: 
 
 ## 📂 Contenuto
 
-- **01_Introduzione.ipynb** → introduzione teorica e pratica alle reti neurali convoluzionali (CNN).  
-- **02_eSat_custom_CNN.ipynb** → implementazione di una CNN personalizzata su EuroSAT.  
-- **03_eSAT_pretrained_models.ipynb** → utilizzo di modelli pre-addestrati (ResNet-50, VGG16, Inception) con transfer learning.  
-- **data_pipeline_pretrained.py** → libreria per la gestione dei dati multispettrali e preprocessing per i modelli.  
-- **data_pipeline_pretrained.md** → documentazione della libreria dati.  
-- **artifacts/** → figure, grafici e materiali prodotti durante le esercitazioni.  
-- **artwork/** → immagini di supporto usate nei notebook.  
-- **outputs/** → output dei modelli addestrati (log, metriche, modelli intermedi).  
-- **outputs_pretrained/** → pesi e risultati specifici del transfer learning.  
-- **split_lists/** → liste di train/val/test per garantire la tracciabilità degli esperimenti.  
+- **01_Introduzione.ipynb** → introduzione teorica e pratica alle reti neurali convoluzionali (CNN).
+- **02_eSat_custom_CNN.ipynb** → implementazione di una CNN personalizzata su EuroSAT.
+- **03_eSAT_pretrained_models.ipynb** → utilizzo di modelli pre-addestrati (ResNet-50, VGG16, Inception) con transfer learning.
+- **data_pipeline_pretrained.py** → libreria per la gestione dei dati multispettrali e preprocessing per i modelli.
+- **data_pipeline_pretrained.md** → documentazione della libreria dati.
+- **artifacts/** → figure, grafici e materiali prodotti durante le esercitazioni.
+- **artwork/** → immagini di supporto usate nei notebook.
+- **EuroSAT_MS/** → cartella da riempire con le classi del dataset EuroSAT (dopo estrazione dello zip). Necessaria per eseguire i notebook.
+- **outputs/** → output dei modelli addestrati (log, metriche, modelli intermedi).
+- **outputs_pretrained/** → pesi e risultati specifici del transfer learning.
+- **split_lists/** → liste di train/val/test per garantire la tracciabilità degli esperimenti.
 
 ## 🎯 Obiettivi didattici
 
@@ -26,7 +27,7 @@ Questa cartella contiene i **materiali didattici** del seminario *Verso l’AI: 
 ## 📥 Dataset EuroSAT_MS
 
 I notebook forniti si basano sul dataset **EuroSAT multispettrale (EuroSAT_MS)**.  
-Per motivi di licenza e dimensioni, **il dataset non è incluso in questa repository**.
+A causa della sua dimensione (>2GB), **il dataset non è incluso in questa repository**.
 
 ### Come preparare i dati
 1. Scaricare l’archivio `.zip` di EuroSAT_MS dal sito ufficiale (o fonte indicata dal docente).  
